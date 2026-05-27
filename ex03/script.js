@@ -1,7 +1,6 @@
-let entrada = prompt("Digite os números, separe-os por vírgulas:");
+let entrada = prompt("Digite os números, separe-os por vírgula:");
 let vetor = entrada.split(",");
 
-// converter para número
 for (let i = 0; i < vetor.length; i++) {
     vetor[i] = parseInt(vetor[i]);
 }
